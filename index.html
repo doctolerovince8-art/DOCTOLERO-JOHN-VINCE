@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doctolero John Vince Carlo E. | Personal Website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, green, red);
+    background-size: 400% 400%;
+    animation: bgAnimation 12s ease infinite;
+}
+.container { width: 90%; max-width: 900px; }
+.slides-wrapper { position: relative; }
+.slide {
+    display: none;
+    border-radius: 20px;
+    padding: 50px 30px;
+    text-align: center;
+    background: #fff; 
+    color: #333;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    animation: fadeIn 0.8s ease-in-out;
+}
+.slide.active { display: block; }
+h1 { margin-bottom: 20px; color: #222; }
+h3 { margin-bottom: 12px; color: #444; }
+p, li { color: #555; line-height: 1.7; }
+ul { list-style: disc; padding-left: 20px; margin-bottom: 20px; }
+.two-col { display: flex; justify-content: space-between; flex-wrap: wrap; margin-top: 25px; }
+.col { flex: 1 1 40%; margin: 10px; text-align: left; }
+.one-col { margin-top: 25px; text-align: left; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 15px; margin-top: 20px; justify-items: center; }
+.grid figure { margin: 0; text-align: center; }
+.grid img { width: 100%; border-radius: 15px; border: 2px solid #333; transition: transform 0.3s, box-shadow 0.3s; }
+.grid img:hover { transform: scale(1.08); box-shadow: 0 0 25px rgba(0,255,0,0.5), 0 0 25px rgba(255,0,0,0.5); }
+.grid figcaption { margin-top: 8px; font-weight: 600; color: #333; }
+.carousel-controls { margin-top: 30px; text-align: center; }
+.carousel-controls button {
+    padding: 12px 30px;
+    margin: 0 12px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+    background: #333;
+    color: #fff;
+    transition: 0.4s;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+.carousel-controls button:hover {
+    background: #555;
+    box-shadow: 0 0 20px rgba(0,255,0,0.6), 0 0 25px rgba(255,0,0,0.5);
+}
+a { color: #0077cc; text-decoration: none; }
+a:hover { text-decoration: underline; }
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+@keyframes bgAnimation {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+@media(max-width:600px) {
+    .two-col { flex-direction: column; }
+    .col { flex: 1 1 100%; margin-bottom: 20px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="slides-wrapper">
+
+        <!-- Slide 1: Profile -->
+        <div class="slide active">
+            <div class="slide-content">
+                <img src="FB_IMG_1765792949237.jpg" 
+                     alt="DOCTOLERO JOHN VINCE CARLO E." 
+                     style="width:180px; height:180px; border-radius:50%; object-fit:cover; border: 3px solid #333; box-shadow:0 5px 15px rgba(0,0,0,0.2); margin-bottom:20px;">
+                <h1>DOCTOLERO JOHN VINCE CARLO</h1>
+                <p>Age: 19 • BS Computer Science 1-H • Kolehiyo ng Lungsod ng Lipa</p>
+                <p><i class="fas fa-envelope"></i> Hi! I’m VINCE. I love coding,singing cooking, and exploring new things to make me satisfied. Welcome to my personal website!</p>
+            </div>
+        </div>
+
+        <!-- Slide 2: Detailed Information -->
+        <div class="slide">
+            <div class="slide-content">
+                <h1><i class="fas fa-user-circle"></i> DETAILED INFORMATION</h1>
+                <div class="two-col">
+                    <div class="col">
+                        <h3>Personal Details</h3>
+                        <ul>
+                            <li>Born: Santiago Bato Cam.Sur</li>
+                            <li>Birthday: December 14, 2005 (19 y/o)</li>
+                            <li>Location: Francisco Village, Purok 2, Lipa City</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Achievements</h3>
+                        <ul>
+                            <li>No failing grades in all levels</li>
+                            <li>Senior High School With Honor</li>
+                            <li>Active in school activities</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="one-col">
+                    <h3>Academic Background</h3>
+                    <ul>
+                        <li>Bato Camsut Kindergarten School – 2012</li>
+                        <li>Bato South Central  School – 2018</li>
+                        <li>Lipa City National High School – 2022</li>
+                        <li               i<li>Lipa  Senior High School – 2025</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+<!-- Slide 3: Family -->
+<div class="slide">
+    <div class="slide-content">
+        <h1><i class="fas fa-home"></i> MY FAMILY</h1>
+        <div class="grid">
+            <img src="FB_IMG_1767540994840.jpg" alt="picture">
+            <img src="haha.jpg" alt="picture">
+            <img src="Messenger_creation_F741DB4B-21D6-421B-87EF-8D5229219710.jpeg" alt="picture">
+        </div>
+        <div class="one-col">
+            <ul>
+                <li>Father: Virgerlo Doctolero</li>
+                <li>Mother: Judith E. Doctolero</li>
+                <li>Brother: Alexander Occiano, Cedric Doctolero, Kitbryan Doctolero, Alfonso Occiano</li>
+                <li>Sister: Anne E.Occiano</li>
+                <li>Girlfriend: Jonalyn Silva</li>
+            </ul>
+            <p>This photos means so much to me because it reminds me of the family that keeps me strong every day. Even though my father has been gone for 6 years, his love, guidance, and memories are still with us. We may not see him anymore, but he lives on in our hearts and in every moment we share as a family. I know he's watching over us, and I hope he's proud. We miss you, Papa.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 4: Friends -->
+<div class="slide">
+    <div class="slide-content">
+        <h1><i class="fas fa-users"></i> MY FRIENDS</h1>
+        <div class="grid">
+            <img src="pinsan.jpeg" alt="Friend 1">
+            <img src="cl.jpeg" alt="Friend 2">
+            <img src="received_577056612014473.jpeg" alt="Friend 3">
+        </div>
+        <div class="one-col">
+            <ul>
+                
+            </ul>
+            <p>This photos captures more than just a photo shots it shows friendship, support, and shared moments. Being here with my friends and my niece's friends reminds me how life connects us in unexpected and meaningful ways. Different paths, same laughter, same memories. Grateful for moments like this!</p>
+        </div>
+    </div>
+</div>
+        <!-- Slide 5: Hobbies -->
+        <div class="slide">
+            <div class="slide-content">
+                <h1><i class="fas fa-heart"></i> HOBBIES</h1>
+                <div class="grid">
+                    <figure>
+                        <img src="chef-cooking-food-on-the-stove-cartoon-style-vector.jpg" alt="Cooking">
+                        <figcaption>Cooking</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images.jpeg" alt="playing guitar and singing">
+                        <figcaption>playing guitar and singing</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="4a7d59ca1982fa23e848c4a57911a79c.jpg" alt="watching anime">
+                        <figcaption>watching anime</figcaption>
+                    </figure>
+                </div>
+                <div class="one-col">
+                    <p><strong>Cooking:</strong>I really love cooking, and I've loved it since I was a child. I learned how to cook from my father, who I really admired in the kitchen. Whenever I cook, I remember the times when he was still alive and we cooked together. Thats how I developed my love for cooking.</p>
+                    <p><strong>playing guitar and singing:</strong>.</p>I enjoy playing guitar when im bored. when im playing guitar it feels relaxing and peace,since i was a grade 10 i played guitar then now i am a song writer too.
+                    <p><strong>Watching Anime:</strong>I love watching anime every night before going to sleep. Watching anime is my peace..</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Contact -->
+        <div class="slide">
+            <div class="slide-content">
+                <h1><i class="fas fa-address-book"></i> CONTACT ME</h1>
+                <div class="one-col">
+                    <p><strong>Email:</strong> doctolerovince8@gmail.com</p>
+                    <p><strong>Phone:</strong> 09083553255</p>
+                    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/17gm47RNXB/" target="_blank">Link</a></p>
+                    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/vicentemwa?igsh=cTluaDlyamo4dW1y" target="_blank">Link</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Carousel Controls -->
+    <div class="carousel-controls">
+        <button id="prev"><i class="fas fa-chevron-left"></i> Previous</button>
+        <button id="next">Next <i class="fas fa-chevron-right"></i></button>
+    </div>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+document.getElementById('next').addEventListener('click', () => {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+});
+document.getElementById('prev').addEventListener('click', () => {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
+});
+</script>
+</body>
+</html>
